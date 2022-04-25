@@ -4,4 +4,11 @@ const sayHello = function(name) {
 
 sayHello("Caliban");
 sayHello("Miranda");
-sayHello("Ferdinand");
+sayHello("Ferdinand"); 
+
+const sayHello2 = function(name) {
+  return "hello, " + name;
+}
+
+const greeting = sayHello2("John");
+console.log(greeting);
